@@ -1,4 +1,4 @@
-from lexical import TokenStream, Token
+from subscrept_pac.lexical import TokenStream, Token
 
 
 class InterpreterObject:

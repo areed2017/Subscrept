@@ -1,6 +1,6 @@
-from lexical import Token
-from syntax import InterpreterObject
-from syntax.math.Term import Term
+from subscrept_pac.lexical import Token
+from subscrept_pac.syntax import InterpreterObject
+from subscrept_pac.syntax.math.Term import Term
 
 
 class Expression(InterpreterObject):

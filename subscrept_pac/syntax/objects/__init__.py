@@ -1,7 +1,5 @@
-from errors import TokenSyntaxError
-from lexical import TokenStream
-from syntax import InterpreterObject
-from syntax.objects.Line import Line
+from subscrept_pac.syntax import InterpreterObject
+from subscrept_pac.syntax.objects.Line import Line
 
 
 def new(parent: InterpreterObject):

@@ -1,7 +1,6 @@
-from errors import TokenSyntaxError
-from lexical import Token
-from syntax import InterpreterObject
-from syntax.math.Factor import Factor
+from subscrept_pac.lexical import Token
+from subscrept_pac.syntax import InterpreterObject
+from subscrept_pac.syntax.math.Factor import Factor
 
 
 class Term(InterpreterObject):

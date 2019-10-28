@@ -1,7 +1,6 @@
-from errors import TokenSyntaxError
-from lexical import Token
-from syntax import InterpreterObject, Statement
-from syntax.keywords import Function
+from subscrept_pac.errors import TokenSyntaxError
+from subscrept_pac.lexical import Token
+from subscrept_pac.syntax import InterpreterObject, Statement
 
 
 class For(InterpreterObject):

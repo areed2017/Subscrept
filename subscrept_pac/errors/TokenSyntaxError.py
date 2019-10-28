@@ -1,4 +1,4 @@
-from lexical import Token
+from subscrept_pac.lexical import Token
 
 
 class TokenSyntaxError(Exception):

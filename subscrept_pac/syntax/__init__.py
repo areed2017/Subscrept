@@ -1,6 +1,6 @@
-from lexical import TokenStream
-from syntax.InterpreterObject import InterpreterObject
-from syntax.Statement import Statement
+from subscrept_pac.lexical import TokenStream
+from subscrept_pac.syntax.InterpreterObject import InterpreterObject
+from subscrept_pac.syntax.Statement import Statement
 
 
 class Interpreter(InterpreterObject):

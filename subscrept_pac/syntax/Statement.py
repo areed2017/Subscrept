@@ -1,11 +1,11 @@
-from lexical import Token
-from syntax import InterpreterObject
-from syntax.calls import FunctionCall
-from syntax.keywords import *
-from syntax.objects import new
-from syntax.types import *
-from syntax.calls.Variable import Variable
-from syntax.math import Expression
+from subscrept_pac.lexical import Token
+from subscrept_pac.syntax import InterpreterObject
+from subscrept_pac.syntax.calls import FunctionCall
+from subscrept_pac.syntax.keywords import *
+from subscrept_pac.syntax.objects import new
+from subscrept_pac.syntax.types import *
+from subscrept_pac.syntax.calls.Variable import Variable
+from subscrept_pac.syntax.math import Expression
 
 
 class Statement(InterpreterObject):

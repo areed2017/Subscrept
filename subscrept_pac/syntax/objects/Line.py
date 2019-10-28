@@ -1,5 +1,4 @@
-from lexical import TokenStream, Token
-from syntax import InterpreterObject
+from subscrept_pac.syntax import InterpreterObject
 
 
 class Line(InterpreterObject):

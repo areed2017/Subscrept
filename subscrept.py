@@ -1,7 +1,7 @@
 import sys
 
-from lexical import parse
-from syntax import Interpreter
+from subscrept_pac.lexical import parse
+from subscrept_pac.syntax import Interpreter
 
 VERBOSE = True
 

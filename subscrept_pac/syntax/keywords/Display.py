@@ -1,4 +1,4 @@
-from syntax import InterpreterObject, Statement
+from subscrept_pac.syntax import InterpreterObject, Statement
 
 
 class Display(InterpreterObject):
